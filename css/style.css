@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*FJERNER ALT WHITE SPACE*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* INGEN PUNKTFORM VED UL*/
+ul {
+    list-style-type: none;
+}
+
+/*LOGO*/
+#logo {
+    width: 180px;
+    margin-right: 450px;
+}
+
+/*NAVIGATION*/
+nav {
+    display:flex;
+    width: 100%;
+    padding: 20px 0;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: white;
+    font-size: medium;
+    font-weight:bold
+}
+
+/*LI*/
+nav ul li {
+    display: inline-flex;
+    padding-right: 30px;
+}
+
+#menuliste ul {
+    text-align: center;
+}
+
+#menuliste li {
+    display: inline-block;
+}
+
+#menuliste li a {
+    display: block;
+}
+
+.nav-billede {
+    width: 100px;
+}
+
+/*BAGGRUND*/
+.baggrund {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image:url(../img/Baggrund1.jpg);
+    background-size: 500px; 
+}
+
+/*HVID BOX*/
+.hvid-box {
+    background-color: white;
+    color:black; 
+    width: 56%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;
+   
+}
+
+/*JACK BILLEDE*/
+.jack-billede {
+  float: left;
+}
+
+
+/*PARAGRAF*/
+.paragraf {
+    font-size:medium;
+}
+
+/*H1-OVERSKRIFT*/
+.overskrift1 {
+    font-size: 200%;
+    font-weight: 900;
+    padding-bottom: 5%;
+    padding-top: 20px;
+
+}
+/*H2-OVERSKRIFT*/
+.overskrift2 {
+font-size: small; 
+font-weight: lighter;
+
+}
+
+/*H4-OVERSKRIFT*/
+.overskrift4 {
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*FOOTER*/
+#footer {
+    padding-bottom: 50px;
+}
+
+
+/*-------------------------------------------------------------------->*/
+
+
+
+/*ARTIKEL-SIDE*/
+
+/*ARTIKEL BILLEDER*/
+.artikelbilleder {
+    vertical-align:top;
+    margin: auto;
+
+  }
+
+  /*HVID BOX UNDER ARTIKEL*/
+.hvide-boxe-under-artikler {
+    background-color: white;
+    color:black; 
+    width: 400px;
+    display: flex;
+    padding-bottom: 10px;
+     margin-bottom: 20px;
+     margin: auto;
+   
+}
+
+/*TEASER TEXT*/
+.teasertext {
+
+}
+
+/*-------------------------------------------------------------------->*/
+
+
+
+
+/*ARTIKLER*/
+
+/*ARTIKEL BILLEDE*/
+.artikelbillede {
+   display: flex;
+   margin-left: 0%;
+   margin-right: 23%;
+}
+
+/*HVID BOX1*/
+.hvid-box-artikel1 {
+    background-color: white;
+    color:black; 
+    width: 800px;
+    display: flex;
+    margin-left: 23%;
+    margin-right: 23%;
+    padding-bottom: 20px;
+}
+
+/*ARTIKEL TEXT*/
+.artikel-text {
+    display: flex;
+    margin-left: 23%;
+    margin-right: 23%;
+}
